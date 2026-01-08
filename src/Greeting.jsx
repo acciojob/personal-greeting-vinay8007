@@ -3,7 +3,7 @@ function Greeting(){
     const [name, setName] = useState("");
     return(
         <div>
-            <label>Enter your name: </label>
+            <h2>Enter your name: </h2>
             <br/>
             <input 
                 type="text"
